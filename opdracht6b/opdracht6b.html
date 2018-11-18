@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fro opdr 6B</title>
+  <meta name="description" content="Mediacollege Amsterdam HTML5">
+  <meta name="author" content="Timmert">
+  <link rel="stylesheet" type="text/css" href="myclass.css">
+</head>
+<body>
+
+  <center><p id = "title">5 foto's<p>
+
+  <input type="button" class="button" value="Plaatje 1" id="button_1" />
+  <input type="button" class="button" value="Plaatje 2" id="button_2" />
+  <input type="button" class="button" value="Plaatje 3" id="button_3" />
+  <input type="button" class="button" value="Plaatje 4" id="button_4" />
+  <input type="button" class="button" value="Plaatje 5" id="button_5" />
+  <br>
+
+  <div id="foto"></div></center>
+  <br>
+
+<script>
+  var button_1 = document.getElementById("button_1");
+  var button_2 = document.getElementById("button_2");
+  var button_3 = document.getElementById("button_3");
+  var button_4 = document.getElementById("button_4");
+  var button_5 = document.getElementById("button_5");
+
+  button_1.addEventListener('click',()=>{
+    document.getElementById('foto').style.backgroundImage = "url('img/1.png')";
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "darkgrey";
+    document.getElementById("title").innerHTML = "BMTH";
+  })
+  button_2.addEventListener('click',()=>{
+    document.getElementById('foto').style.backgroundImage = "url('img/2.png')";
+    document.body.style.backgroundColor = "#ff6666";
+    document.body.style.color = "darkred";
+    document.getElementById("title").innerHTML = "Slipknot";
+  })
+  button_3.addEventListener('click',()=>{
+    document.getElementById('foto').style.backgroundImage = "url('img/3.png')";
+    document.body.style.backgroundColor = "gold";
+    document.body.style.color = "#4d4d00";
+    document.getElementById("title").innerHTML = "BVB";
+  })
+  button_4.addEventListener('click',()=>{
+    document.getElementById('foto').style.backgroundImage = "url('img/4.png')";
+    document.body.style.backgroundColor = "lightblue";
+    document.body.style.color = "darkblue";
+    document.getElementById("title").innerHTML = "MIW";
+  })
+  button_5.addEventListener('click',()=>{
+    document.getElementById('foto').style.backgroundImage = "url('img/5.png')";
+    document.body.style.backgroundColor = "darkgray";
+    document.body.style.color = "black";
+    document.getElementById("title").innerHTML = "FLW";
+  })
+</script>
+
+</body>
+
+</html>

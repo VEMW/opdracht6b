@@ -1,0 +1,33 @@
+body{
+background-repeat: no-repeat;
+background-size:100%;
+background-color: #1a1a1a;
+color: #e6e6e6;
+font-size: 400%;
+}
+
+.button {
+background-color: #333333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+
+#text {
+  color; #000000
+}
+
+
+#foto {
+  height: 450px;
+  width: 450px;
+  background-size: 100% 100%;
+  background-image: url('');
+}
